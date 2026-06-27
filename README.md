@@ -37,6 +37,22 @@ TBD
 TBD
 ```
 
+## Game reskin planning
+
+A stack-agnostic reskin planning brief is available in [`GAME_RESKIN_BRIEF.md`](GAME_RESKIN_BRIEF.md). Use it to define the target theme, collect the asset inventory, prioritize replacements, and validate the reskin once game source files are added.
+
+## Showing an HTML preview
+
+Place the exported game HTML at [`index.html`](index.html) so reviewers can open it directly from the repository or deploy it with a static-site host. If the export includes folders such as `assets/`, `images/`, `scripts/`, or `styles/`, keep those folders beside `index.html` so relative paths continue to work.
+
+To preview locally, run a static server from the repository root, for example:
+
+```sh
+python3 -m http.server 8000
+```
+
+Then open <http://localhost:8000/> in a browser.
+
 ## Recommended next steps
 
 1. Choose the project technology stack.

@@ -16,6 +16,7 @@ Document commands here as they become available:
 - Test: TBD
 - Lint: TBD
 - Format: TBD
+- Preview static HTML: `python3 -m http.server 8000`
 
 ## Coding conventions
 
